@@ -1,0 +1,6 @@
+<div *ngFor="let t of todos">
+    <div align="left">{{ t.description }}</div>
+    <div align="left">{{ t.priority }}</div>
+    <div align="right">{{ t.dueDate | date: 'longDate' }}</div>
+</div>
+
